@@ -3,12 +3,14 @@ body{
     font-family: sans-serif, verdana;
     font-size: 5px;
     background-color: black;
+    overflow-x: hidden;
 }
 main{
     background-color: hsl(216, 12%, 8%);
     height: 310px;
     margin: 210px auto;
     transform: scale(2);
+    max-width: 50%;
 }
 
 #div1{
@@ -64,6 +66,16 @@ p{
     border-radius: 15px;
     padding: 7px;
     display: inline-block;
+}
+#signature{
+    position: absolute;
+    bottom: 0px;
+    left: 46%;
+    font-size: larger;
+}
+.gitlink{
+    color: blue;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 355px) {

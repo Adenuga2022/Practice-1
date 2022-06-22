@@ -6,7 +6,6 @@ body{
 }
 main{
     background-color: hsl(216, 12%, 8%);
-    /* max-width: 590px; */
     height: 310px;
     margin: 210px auto;
     transform: scale(2);

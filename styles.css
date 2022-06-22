@@ -83,3 +83,12 @@ p{
         transform: scale(0.8);
     }
 }
+
+@media screen and (max-width: 428px) {
+    #signature{
+        position: absolute;
+        bottom: 0px;
+        left: 35%;
+    }
+
+}
